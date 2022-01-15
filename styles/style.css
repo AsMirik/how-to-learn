@@ -173,8 +173,6 @@
     list-style: none;
 }
 
-.table_theme_dark {}
-
 .table__cell {
     width: 250px;
     margin-top: 60px;
@@ -195,7 +193,6 @@
 
 .table__heading_theme_dark {
     color: white;
-    margin-bottom: 20px;
 }
 
 .table__text {
@@ -300,10 +297,6 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
-.footer__column_content-info {}
-
-.footer__column_content-social {}
 
 .footer__author {
     line-height: 25px;
