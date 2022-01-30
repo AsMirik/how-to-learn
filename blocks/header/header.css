@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #f2f2f2;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.logo_place_header {
+  position: absolute;
+  width: 182px;
+  height: 32px;
+  top: 30px;
+  left: 64px;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}
+
+.header__title {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 64px;
+  max-width: 730px;
+  width: 100%;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 700;
+  z-index: 2;
+}
+
+.header__subtitle {
+  line-height: 25px;
+  font-size: 18px;
+  max-width: 388px;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
+.header__link {
+  color: #2f80ed;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.header__square-pic {
+  background-color: #2f80ed;
+  height: 568px;
+  width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: 0;
+}

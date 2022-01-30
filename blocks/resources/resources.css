@@ -1,0 +1,17 @@
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0 217px;
+}
+
+.resources__logo-zone {
+  display: flex;
+  max-width: 1100px;
+  margin: 80px 0 0;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
